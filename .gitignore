@@ -1,0 +1,19 @@
+# Machine-local data, checkpoints, provenance originals and reanalysis outputs
+/local/
+# Existing dependency checkouts are installed locally; setup pins their commits.
+/work/hdp-runtime/sources/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.DS_Store
+Thumbs.db
+*.pt
+*.pth
+*.ckpt
+*.tar
+*.tar.gz
+*.tar.xz
+*.zip
+*.log

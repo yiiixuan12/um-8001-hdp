@@ -1,0 +1,1547 @@
+{
+  "version": 1,
+  "conditions": [
+    "ORIGINAL",
+    "HOLD",
+    "XYZ",
+    "SE3"
+  ],
+  "scenes": 20,
+  "expected_cases": 80,
+  "items": [
+    {
+      "episode": 0,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200000,
+      "demo_file": "local/state/data/open_microwave/val/episode_000000/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-00-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-00-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.3525267243385315,
+          0.16407343745231628,
+          0.8881460428237915,
+          -0.5239406228065491,
+          0.48185035586357117,
+          0.4967205822467804,
+          0.4965633153915405
+        ],
+        "tip_in_door": [
+          -0.005201995372772217,
+          0.001683950424194336,
+          -0.21309830248355865,
+          0.4780374765396118,
+          0.5051152110099792,
+          0.5008167624473572,
+          0.5152877569198608
+        ],
+        "joints": [
+          0.02059650421142578,
+          0.8529202938079834,
+          -0.12631532549858093,
+          -1.7493009567260742,
+          1.5318149328231812,
+          1.4438583850860596,
+          -1.7934554815292358
+        ],
+        "gripper_joints": [
+          0.010144621133804321,
+          0.014181375503540039
+        ],
+        "door_angle_rad": -0.00013208389282226562,
+        "contacts": [
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 96.1597467960722
+          },
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 92.19558238223547
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 5,
+        "position_match_rms_mm": 0.00017171661373519863,
+        "position_match_max_mm": 0.0009909655719397854,
+        "raw_orientation_match_rms_deg": 0.0005886938405153747,
+        "raw_orientation_match_max_deg": 0.0032735318201807403,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 305,
+        "maximum_joint_change_from_position_deg": 7.0251222801932744,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.0003417252130683013,
+        "shared_filtered_path_position_match_max_mm": 0.0016964283978250002
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 1,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200001,
+      "demo_file": "local/state/data/open_microwave/val/episode_000001/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-01-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-01-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.29661864042282104,
+          0.39143550395965576,
+          0.8880103826522827,
+          -0.6043189764022827,
+          0.3870483636856079,
+          0.5664538741111755,
+          0.40511995553970337
+        ],
+        "tip_in_door": [
+          -0.005262613296508789,
+          0.0017807483673095703,
+          -0.21309444308280945,
+          -0.4811743497848511,
+          -0.5216691493988037,
+          -0.49295711517333984,
+          -0.503314733505249
+        ],
+        "joints": [
+          0.23791098594665527,
+          0.9469215869903564,
+          0.07070949673652649,
+          -1.5613198280334473,
+          1.4375072717666626,
+          1.5715737342834473,
+          -1.702354073524475
+        ],
+        "gripper_joints": [
+          0.010403990745544434,
+          0.013705253601074219
+        ],
+        "door_angle_rad": -0.00012183189392089844,
+        "contacts": [
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 61.7297140029613
+          },
+          {
+            "points": 20,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 52.42308968564316
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 4,
+        "position_match_rms_mm": 0.00020580698928931613,
+        "position_match_max_mm": 0.0009733536793193395,
+        "raw_orientation_match_rms_deg": 0.00033960377468471124,
+        "raw_orientation_match_max_deg": 0.0018418639372244235,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 337,
+        "maximum_joint_change_from_position_deg": 5.24950569976477,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.00022744577756019673,
+        "shared_filtered_path_position_match_max_mm": 0.0009723569902357317
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 2,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200002,
+      "demo_file": "local/state/data/open_microwave/val/episode_000002/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-02-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-02-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.36702826619148254,
+          0.32445961236953735,
+          0.8876197934150696,
+          -0.5722560286521912,
+          0.4250146746635437,
+          0.5505558848381042,
+          0.4344812035560608
+        ],
+        "tip_in_door": [
+          -0.005277693271636963,
+          0.002213716506958008,
+          -0.2130366414785385,
+          -0.49132710695266724,
+          -0.513913631439209,
+          -0.4940764904022217,
+          -0.5003786683082581
+        ],
+        "joints": [
+          0.11783838272094727,
+          1.0353107452392578,
+          0.07098034024238586,
+          -1.4091665744781494,
+          1.438447117805481,
+          1.5497090816497803,
+          -1.6171430349349976
+        ],
+        "gripper_joints": [
+          0.010294973850250244,
+          0.013407766819000244
+        ],
+        "door_angle_rad": -0.00021839141845703125,
+        "contacts": [
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 78.95378515978521
+          },
+          {
+            "points": 20,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 77.57095121165
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 4,
+        "position_match_rms_mm": 0.0001749386320004074,
+        "position_match_max_mm": 0.0009999894645169093,
+        "raw_orientation_match_rms_deg": 0.00032401252459390324,
+        "raw_orientation_match_max_deg": 0.0019506835531011347,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 385,
+        "maximum_joint_change_from_position_deg": 4.765910036649474,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.00020386045333687156,
+        "shared_filtered_path_position_match_max_mm": 0.0010064872630585675
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 3,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200003,
+      "demo_file": "local/state/data/open_microwave/val/episode_000003/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-03-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-03-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.4539497196674347,
+          -0.05702491104602814,
+          0.8875793218612671,
+          -0.427801251411438,
+          0.5621218681335449,
+          0.41185349225997925,
+          0.5756577849388123
+        ],
+        "tip_in_door": [
+          -0.0052640438079833984,
+          0.0022600889205932617,
+          -0.21303915977478027,
+          0.4823743402957916,
+          0.4955458641052246,
+          0.502709686756134,
+          0.5186831951141357
+        ],
+        "joints": [
+          -0.28972959518432617,
+          1.0631349086761475,
+          -0.1370382010936737,
+          -1.3757407665252686,
+          1.6152948141098022,
+          1.443638563156128,
+          -1.6104966402053833
+        ],
+        "gripper_joints": [
+          0.010071992874145508,
+          0.014180094003677368
+        ],
+        "door_angle_rad": -0.0001785755157470703,
+        "contacts": [
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 80.85795123345102
+          },
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 76.72098578268152
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 5,
+        "position_match_rms_mm": 0.00017827397555438747,
+        "position_match_max_mm": 0.0009314870432839417,
+        "raw_orientation_match_rms_deg": 0.00014867865412799804,
+        "raw_orientation_match_max_deg": 0.0013020773159665457,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 433,
+        "maximum_joint_change_from_position_deg": 8.601755104117892,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.0003090614015757785,
+        "shared_filtered_path_position_match_max_mm": 0.0018020663324585038
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 4,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200004,
+      "demo_file": "local/state/data/open_microwave/val/episode_000004/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-04-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-04-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.2942104637622833,
+          0.10950372368097305,
+          0.8884565830230713,
+          -0.49030259251594543,
+          0.516701340675354,
+          0.46322062611579895,
+          0.5273043513298035
+        ],
+        "tip_in_door": [
+          -0.005263328552246094,
+          0.0012830495834350586,
+          -0.21310833096504211,
+          0.4737551510334015,
+          0.4999203085899353,
+          0.5064054727554321,
+          0.51883465051651
+        ],
+        "joints": [
+          0.07555127143859863,
+          0.7090210914611816,
+          -0.2891027629375458,
+          -2.056972026824951,
+          1.5984245538711548,
+          1.3920631408691406,
+          -1.9321645498275757
+        ],
+        "gripper_joints": [
+          0.010092169046401978,
+          0.014477193355560303
+        ],
+        "door_angle_rad": -0.00022792816162109375,
+        "contacts": [
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 96.88485111184472
+          },
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 82.68551523051359
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 5,
+        "position_match_rms_mm": 0.00021355753294440653,
+        "position_match_max_mm": 0.0006980861720697375,
+        "raw_orientation_match_rms_deg": 0.00011419756213869466,
+        "raw_orientation_match_max_deg": 0.0009606912806953052,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 305,
+        "maximum_joint_change_from_position_deg": 7.830863891094096,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.0006436430175389861,
+        "shared_filtered_path_position_match_max_mm": 0.003742644982288564
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 5,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200005,
+      "demo_file": "local/state/data/open_microwave/val/episode_000005/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-05-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-05-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.36783918738365173,
+          0.24905189871788025,
+          0.8879964351654053,
+          -0.5856080651283264,
+          0.41118842363357544,
+          0.5565674901008606,
+          0.4221610426902771
+        ],
+        "tip_in_door": [
+          -0.005189061164855957,
+          0.0017821192741394043,
+          -0.21310897171497345,
+          -0.48510077595710754,
+          -0.5153411030769348,
+          -0.49641284346580505,
+          -0.502668023109436
+        ],
+        "joints": [
+          0.020853757858276367,
+          1.039747953414917,
+          0.040569812059402466,
+          -1.3917224407196045,
+          1.3374212980270386,
+          1.4248027801513672,
+          -1.6289359331130981
+        ],
+        "gripper_joints": [
+          0.010132253170013428,
+          0.013563275337219238
+        ],
+        "door_angle_rad": -9.441375732421875e-05,
+        "contacts": [
+          {
+            "points": 20,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 110.50085847325205
+          },
+          {
+            "points": 20,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 107.16458082862341
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 4,
+        "position_match_rms_mm": 0.0001439955829541738,
+        "position_match_max_mm": 0.0009584616566540378,
+        "raw_orientation_match_rms_deg": 0.00042156929846708265,
+        "raw_orientation_match_max_deg": 0.002488664940235858,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 305,
+        "maximum_joint_change_from_position_deg": 4.375895027200762,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.00019584199880906831,
+        "shared_filtered_path_position_match_max_mm": 0.0009713434453830794
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 6,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200006,
+      "demo_file": "local/state/data/open_microwave/val/episode_000006/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-06-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-06-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.2893972098827362,
+          0.22453594207763672,
+          0.8885340094566345,
+          -0.5319728851318359,
+          0.47224295139312744,
+          0.5035909414291382,
+          0.49029335379600525
+        ],
+        "tip_in_door": [
+          -0.005172520875930786,
+          0.0013218522071838379,
+          -0.21312206983566284,
+          -0.47649598121643066,
+          -0.5049439072608948,
+          -0.500141441822052,
+          -0.5175344347953796
+        ],
+        "joints": [
+          0.1673145294189453,
+          0.7338352203369141,
+          -0.162215918302536,
+          -1.9798710346221924,
+          1.5944050550460815,
+          1.4734423160552979,
+          -1.899025559425354
+        ],
+        "gripper_joints": [
+          0.010167896747589111,
+          0.014303088188171387
+        ],
+        "door_angle_rad": -9.34600830078125e-05,
+        "contacts": [
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 110.60411344427109
+          },
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 105.10474703497944
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 5,
+        "position_match_rms_mm": 0.0002044579943358939,
+        "position_match_max_mm": 0.0009605030708400979,
+        "raw_orientation_match_rms_deg": 0.0002728146619986954,
+        "raw_orientation_match_max_deg": 0.0024682438463757045,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 305,
+        "maximum_joint_change_from_position_deg": 6.991716706752406,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.0005328743626430855,
+        "shared_filtered_path_position_match_max_mm": 0.003196547122733894
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 7,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200007,
+      "demo_file": "local/state/data/open_microwave/val/episode_000007/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-07-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-07-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.3102225363254547,
+          0.33949288725852966,
+          0.8879952430725098,
+          -0.5779812335968018,
+          0.41984573006629944,
+          0.5494406819343567,
+          0.43333855271339417
+        ],
+        "tip_in_door": [
+          -0.0051773786544799805,
+          0.0018093585968017578,
+          -0.21309193968772888,
+          -0.4836577773094177,
+          -0.5135829448699951,
+          -0.49640846252441406,
+          -0.5058521032333374
+        ],
+        "joints": [
+          0.1986849308013916,
+          0.891862154006958,
+          0.012315064668655396,
+          -1.6652779579162598,
+          1.4983125925064087,
+          1.5529608726501465,
+          -1.7430611848831177
+        ],
+        "gripper_joints": [
+          0.010153770446777344,
+          0.013664931058883667
+        ],
+        "door_angle_rad": -3.838539123535156e-05,
+        "contacts": [
+          {
+            "points": 20,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 84.79752373084978
+          },
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 71.0721878776719
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 4,
+        "position_match_rms_mm": 0.00019016505105367193,
+        "position_match_max_mm": 0.0009787352841921376,
+        "raw_orientation_match_rms_deg": 0.0004891721138506991,
+        "raw_orientation_match_max_deg": 0.002421615329169766,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 337,
+        "maximum_joint_change_from_position_deg": 6.137412089582201,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.0003168947876443498,
+        "shared_filtered_path_position_match_max_mm": 0.0016443170773137177
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 8,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200008,
+      "demo_file": "local/state/data/open_microwave/val/episode_000008/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-08-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-08-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.31495392322540283,
+          0.1263863742351532,
+          0.8882912397384644,
+          -0.4918709099292755,
+          0.5141229629516602,
+          0.46305984258651733,
+          0.5285038352012634
+        ],
+        "tip_in_door": [
+          -0.005197644233703613,
+          0.0014662742614746094,
+          -0.21307611465454102,
+          0.474395215511322,
+          0.5020554661750793,
+          0.5031530261039734,
+          0.5193520188331604
+        ],
+        "joints": [
+          0.07103848457336426,
+          0.7382776737213135,
+          -0.24755999445915222,
+          -1.9921398162841797,
+          1.6214507818222046,
+          1.423722743988037,
+          -1.902635931968689
+        ],
+        "gripper_joints": [
+          0.010184645652770996,
+          0.014405399560928345
+        ],
+        "door_angle_rad": -0.00011539459228515625,
+        "contacts": [
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 95.86665429022293
+          },
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 89.11718820657008
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 5,
+        "position_match_rms_mm": 0.00029949893200932934,
+        "position_match_max_mm": 0.0009473009096509426,
+        "raw_orientation_match_rms_deg": 0.00013953775710351176,
+        "raw_orientation_match_max_deg": 0.0017928061009823827,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 321,
+        "maximum_joint_change_from_position_deg": 8.744329970150202,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.0007058136482876024,
+        "shared_filtered_path_position_match_max_mm": 0.004486464444227738
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 9,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200009,
+      "demo_file": "local/state/data/open_microwave/val/episode_000009/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-09-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-09-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.31472253799438477,
+          0.2607782483100891,
+          0.8881192803382874,
+          -0.5666013360023499,
+          0.43385550379753113,
+          0.5383707880973816,
+          0.4482068121433258
+        ],
+        "tip_in_door": [
+          -0.005240350961685181,
+          0.0016775131225585938,
+          -0.2130594253540039,
+          -0.48121219873428345,
+          -0.5106076598167419,
+          -0.4981798231601715,
+          -0.5094424486160278
+        ],
+        "joints": [
+          0.1223142147064209,
+          0.8507335186004639,
+          -0.054706305265426636,
+          -1.7426624298095703,
+          1.4721192121505737,
+          1.4732813835144043,
+          -1.7877482175827026
+        ],
+        "gripper_joints": [
+          0.010191112756729126,
+          0.013834178447723389
+        ],
+        "door_angle_rad": -0.000156402587890625,
+        "contacts": [
+          {
+            "points": 20,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 81.90552529855911
+          },
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 66.97026279841738
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 4,
+        "position_match_rms_mm": 0.0001902267862203702,
+        "position_match_max_mm": 0.0009752264871827354,
+        "raw_orientation_match_rms_deg": 0.0002645187662616549,
+        "raw_orientation_match_max_deg": 0.0015009817492544848,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 305,
+        "maximum_joint_change_from_position_deg": 5.226243669085207,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.0002696463905502525,
+        "shared_filtered_path_position_match_max_mm": 0.001084600558172759
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 10,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200010,
+      "demo_file": "local/state/data/open_microwave/val/episode_000010/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-10-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-10-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.36371707916259766,
+          0.06193269044160843,
+          0.8881592750549316,
+          -0.4602074921131134,
+          0.5424016714096069,
+          0.42984065413475037,
+          0.5560993552207947
+        ],
+        "tip_in_door": [
+          -0.005239993333816528,
+          0.0016581416130065918,
+          -0.21305784583091736,
+          0.4706741273403168,
+          0.4987448751926422,
+          0.5057984590530396,
+          0.5233423709869385
+        ],
+        "joints": [
+          -0.03020167350769043,
+          0.8071582317352295,
+          -0.24843236804008484,
+          -1.864264726638794,
+          1.6639124155044556,
+          1.4321420192718506,
+          -1.8397406339645386
+        ],
+        "gripper_joints": [
+          0.010212600231170654,
+          0.014638751745223999
+        ],
+        "door_angle_rad": -0.0002300739288330078,
+        "contacts": [
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 112.47400871849521
+          },
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 115.74665624903223
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 200,
+        "position_match_rms_mm": 0.0002810612317927535,
+        "position_match_max_mm": 0.000961617215861559,
+        "raw_orientation_match_rms_deg": 0.0941381967320965,
+        "raw_orientation_match_max_deg": 0.5271320326150783,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 353,
+        "maximum_joint_change_from_position_deg": 10.235589080397833,
+        "all_waypoints_meet_solver_tolerance": false,
+        "shared_filtered_path_position_match_rms_mm": 0.0006727222996231295,
+        "shared_filtered_path_position_match_max_mm": 0.0041487696249796245
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 11,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200011,
+      "demo_file": "local/state/data/open_microwave/val/episode_000011/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-11-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-11-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.32354170083999634,
+          -0.043140873312950134,
+          0.888339638710022,
+          -0.503947377204895,
+          0.5042306780815125,
+          0.4855480194091797,
+          0.5059956908226013
+        ],
+        "tip_in_door": [
+          -0.005117565393447876,
+          0.0014467239379882812,
+          -0.21309366822242737,
+          0.4746391177177429,
+          0.4927818775177002,
+          0.5144592523574829,
+          0.5169288516044617
+        ],
+        "joints": [
+          -0.2361741065979004,
+          0.8967936038970947,
+          -0.25591060519218445,
+          -1.6825838088989258,
+          1.363606572151184,
+          1.2067742347717285,
+          -1.808503270149231
+        ],
+        "gripper_joints": [
+          0.009929418563842773,
+          0.014486223459243774
+        ],
+        "door_angle_rad": -4.887580871582031e-05,
+        "contacts": [
+          {
+            "points": 20,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 90.81751916142798
+          },
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 103.2983609157477
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 5,
+        "position_match_rms_mm": 0.00021191368385205735,
+        "position_match_max_mm": 0.0009906917001854035,
+        "raw_orientation_match_rms_deg": 0.0012002240918762867,
+        "raw_orientation_match_max_deg": 0.0056587546440260966,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 241,
+        "maximum_joint_change_from_position_deg": 6.2077292715489625,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.00039315138257036515,
+        "shared_filtered_path_position_match_max_mm": 0.0012527867503820472
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 12,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200012,
+      "demo_file": "local/state/data/open_microwave/val/episode_000012/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-12-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-12-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.4123721420764923,
+          0.10229533910751343,
+          0.8880435824394226,
+          -0.48741990327835083,
+          0.5128651857376099,
+          0.4688824415206909,
+          0.5287158489227295
+        ],
+        "tip_in_door": [
+          -0.005257725715637207,
+          0.001750946044921875,
+          -0.21309615671634674,
+          0.4821324050426483,
+          0.4994812607765198,
+          0.5004490613937378,
+          0.5173176527023315
+        ],
+        "joints": [
+          -0.09031987190246582,
+          0.9529352188110352,
+          -0.10410258173942566,
+          -1.5696742534637451,
+          1.5737351179122925,
+          1.464521884918213,
+          -1.7027040719985962
+        ],
+        "gripper_joints": [
+          0.010066002607345581,
+          0.014162957668304443
+        ],
+        "door_angle_rad": -0.000194549560546875,
+        "contacts": [
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 89.19852696680765
+          },
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 85.25447338912177
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 5,
+        "position_match_rms_mm": 0.00015651896017256114,
+        "position_match_max_mm": 0.0007950435201087062,
+        "raw_orientation_match_rms_deg": 0.00018153263724596415,
+        "raw_orientation_match_max_deg": 0.0019813379374463004,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 385,
+        "maximum_joint_change_from_position_deg": 8.046400854827718,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.0003676076231136245,
+        "shared_filtered_path_position_match_max_mm": 0.0021760323231350175
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 13,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200013,
+      "demo_file": "local/state/data/open_microwave/val/episode_000013/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-13-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-13-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.3556056618690491,
+          0.022597305476665497,
+          0.888256847858429,
+          -0.5712652802467346,
+          0.4349473714828491,
+          0.5735312104225159,
+          0.39438408613204956
+        ],
+        "tip_in_door": [
+          -0.005167484283447266,
+          0.001515030860900879,
+          -0.21322421729564667,
+          -0.5037720203399658,
+          -0.49502700567245483,
+          -0.5200714468955994,
+          -0.48029959201812744
+        ],
+        "joints": [
+          -0.5865719318389893,
+          1.1566154956817627,
+          0.4566963016986847,
+          -1.2893052101135254,
+          0.7777971029281616,
+          1.3301818370819092,
+          -1.4583064317703247
+        ],
+        "gripper_joints": [
+          0.0101240873336792,
+          0.013846665620803833
+        ],
+        "door_angle_rad": -1.621246337890625e-05,
+        "contacts": [
+          {
+            "points": 20,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 91.05532899836862
+          },
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 86.65432934315767
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 4,
+        "position_match_rms_mm": 0.0002710545350946018,
+        "position_match_max_mm": 0.0009430626192393877,
+        "raw_orientation_match_rms_deg": 0.00014871033948692298,
+        "raw_orientation_match_max_deg": 0.0011149143772490849,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 257,
+        "maximum_joint_change_from_position_deg": 5.317824035066082,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.0011441744636359013,
+        "shared_filtered_path_position_match_max_mm": 0.006104017552259515
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 14,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200014,
+      "demo_file": "local/state/data/open_microwave/val/episode_000014/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-14-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-14-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.38442546129226685,
+          0.09988764673471451,
+          0.8880524635314941,
+          -0.5688875317573547,
+          0.4241192042827606,
+          0.5567706227302551,
+          0.4318522810935974
+        ],
+        "tip_in_door": [
+          -0.005079090595245361,
+          0.001777052879333496,
+          -0.21313631534576416,
+          -0.5010151267051697,
+          -0.5139503479003906,
+          -0.48948410153388977,
+          -0.49522143602371216
+        ],
+        "joints": [
+          -0.2912881374359131,
+          1.1191387176513672,
+          0.17355826497077942,
+          -1.2706029415130615,
+          1.1204837560653687,
+          1.3223447799682617,
+          -1.568707823753357
+        ],
+        "gripper_joints": [
+          0.010436415672302246,
+          0.013390988111495972
+        ],
+        "door_angle_rad": -5.1021575927734375e-05,
+        "contacts": [
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 63.468451371628106
+          },
+          {
+            "points": 20,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 61.345116251396675
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 5,
+        "position_match_rms_mm": 0.00019085925931954553,
+        "position_match_max_mm": 0.0006011865553739594,
+        "raw_orientation_match_rms_deg": 0.0005022995304634686,
+        "raw_orientation_match_max_deg": 0.00505354773234457,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 289,
+        "maximum_joint_change_from_position_deg": 8.73596327341536,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.0008023057075181528,
+        "shared_filtered_path_position_match_max_mm": 0.004064076428037935
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 15,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200015,
+      "demo_file": "local/state/data/open_microwave/val/episode_000015/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-15-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-15-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.3613892197608948,
+          0.3147386908531189,
+          0.8879585862159729,
+          -0.5420469045639038,
+          0.4572806656360626,
+          0.5253494381904602,
+          0.47019949555397034
+        ],
+        "tip_in_door": [
+          -0.005262970924377441,
+          0.0019056200981140137,
+          -0.21317781507968903,
+          -0.4899541735649109,
+          -0.5072105526924133,
+          -0.495469331741333,
+          -0.507141649723053
+        ],
+        "joints": [
+          0.14621567726135254,
+          0.9408345222473145,
+          0.021023303270339966,
+          -1.584188461303711,
+          1.570973515510559,
+          1.5999457836151123,
+          -1.6997305154800415
+        ],
+        "gripper_joints": [
+          0.0099545419216156,
+          0.013659507036209106
+        ],
+        "door_angle_rad": -0.0001552104949951172,
+        "contacts": [
+          {
+            "points": 20,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 80.8407845137581
+          },
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 67.95369207544114
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 6,
+        "position_match_rms_mm": 0.00018196359574633997,
+        "position_match_max_mm": 0.0009992946276894657,
+        "raw_orientation_match_rms_deg": 0.000400473985831345,
+        "raw_orientation_match_max_deg": 0.001824248795198942,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 401,
+        "maximum_joint_change_from_position_deg": 9.301923825438177,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.0003425282059746923,
+        "shared_filtered_path_position_match_max_mm": 0.001924171233513538
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 16,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200016,
+      "demo_file": "local/state/data/open_microwave/val/episode_000016/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-16-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-16-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.34848469495773315,
+          0.07274524122476578,
+          0.8883584141731262,
+          -0.5872701406478882,
+          0.40900304913520813,
+          0.5872146487236023,
+          0.3781656324863434
+        ],
+        "tip_in_door": [
+          -0.0050653815269470215,
+          0.0015306472778320312,
+          -0.2131214737892151,
+          -0.49936699867248535,
+          -0.4933663010597229,
+          -0.518588662147522,
+          -0.4881477355957031
+        ],
+        "joints": [
+          -0.5300111770629883,
+          1.1524641513824463,
+          0.4831836521625519,
+          -1.317436933517456,
+          0.7653928995132446,
+          1.3491129875183105,
+          -1.4708865880966187
+        ],
+        "gripper_joints": [
+          0.010082632303237915,
+          0.013826102018356323
+        ],
+        "door_angle_rad": 9.083747863769531e-05,
+        "contacts": [
+          {
+            "points": 20,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 94.98830782822837
+          },
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 117.10970984860575
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 4,
+        "position_match_rms_mm": 0.00016419427576835305,
+        "position_match_max_mm": 0.0009392729756939426,
+        "raw_orientation_match_rms_deg": 9.898639822381981e-05,
+        "raw_orientation_match_max_deg": 0.0008148399732601876,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 257,
+        "maximum_joint_change_from_position_deg": 3.574305724738015,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.0005318550817074029,
+        "shared_filtered_path_position_match_max_mm": 0.002677614050894
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 17,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200017,
+      "demo_file": "local/state/data/open_microwave/val/episode_000017/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-17-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-17-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.3473295271396637,
+          0.3466154932975769,
+          0.8879779577255249,
+          -0.5788512229919434,
+          0.4194406569004059,
+          0.5492251515388489,
+          0.43284234404563904
+        ],
+        "tip_in_door": [
+          -0.0052454471588134766,
+          0.0019131302833557129,
+          -0.2130858302116394,
+          -0.48592719435691833,
+          -0.5168452262878418,
+          -0.4938591718673706,
+          -0.5028409361839294
+        ],
+        "joints": [
+          0.16183686256408691,
+          0.9936599731445312,
+          0.06267860531806946,
+          -1.48018479347229,
+          1.4615761041641235,
+          1.5715069770812988,
+          -1.6575804948806763
+        ],
+        "gripper_joints": [
+          0.010277777910232544,
+          0.013574779033660889
+        ],
+        "door_angle_rad": -0.00011873245239257812,
+        "contacts": [
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 89.99597215307939
+          },
+          {
+            "points": 20,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 101.48222190927996
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 4,
+        "position_match_rms_mm": 0.00011499694251622179,
+        "position_match_max_mm": 0.0007433788322551297,
+        "raw_orientation_match_rms_deg": 0.0005792388600452516,
+        "raw_orientation_match_max_deg": 0.0044343953559584405,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 337,
+        "maximum_joint_change_from_position_deg": 5.032157534398513,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.0001872153680309557,
+        "shared_filtered_path_position_match_max_mm": 0.0008412247645501526
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 18,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200018,
+      "demo_file": "local/state/data/open_microwave/val/episode_000018/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-18-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-18-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.23804554343223572,
+          0.06585262715816498,
+          0.8888651728630066,
+          -0.5193018317222595,
+          0.47825464606285095,
+          0.5208717584609985,
+          0.4798862636089325
+        ],
+        "tip_in_door": [
+          -0.0051177144050598145,
+          0.0008668303489685059,
+          -0.21343156695365906,
+          -0.4849123954772949,
+          -0.48327136039733887,
+          -0.5146209597587585,
+          -0.516211211681366
+        ],
+        "joints": [
+          -0.009268522262573242,
+          0.7139620780944824,
+          -0.3112752139568329,
+          -2.058662176132202,
+          1.3543962240219116,
+          1.2479047775268555,
+          -1.962668538093567
+        ],
+        "gripper_joints": [
+          0.009387210011482239,
+          0.014603853225708008
+        ],
+        "door_angle_rad": -5.507469177246094e-05,
+        "contacts": [
+          {
+            "points": 20,
+            "positive_force_points": 20,
+            "sum_force_magnitudes_N": 56.20871891110768
+          },
+          {
+            "points": 20,
+            "positive_force_points": 19,
+            "sum_force_magnitudes_N": 43.40754237919859
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 5,
+        "position_match_rms_mm": 0.00032002597275804364,
+        "position_match_max_mm": 0.000986082668493184,
+        "raw_orientation_match_rms_deg": 0.00039533487255434833,
+        "raw_orientation_match_max_deg": 0.0022646701610182364,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 273,
+        "maximum_joint_change_from_position_deg": 6.392572293832773,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.001267038484274931,
+        "shared_filtered_path_position_match_max_mm": 0.007347480526868742
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "episode": 19,
+      "prefix": "MODEL",
+      "source_condition": "MM",
+      "scene_seed": 200019,
+      "demo_file": "local/state/data/open_microwave/val/episode_000019/demo.pkl",
+      "source_plan": "outputs/single-gpu-study/results/grasp-source-predictions/episode-19-MM-stage-1-prediction.npz",
+      "plan_file": "outputs/single-gpu-study/results/grasp-source-plans/episode-19-MODEL.npz",
+      "source_handoff": {
+        "time_s": 0.0,
+        "tip_pose": [
+          0.29549169540405273,
+          0.39572852849960327,
+          0.8879804015159607,
+          -0.5850396156311035,
+          0.4139290153980255,
+          0.545804500579834,
+          0.43415313959121704
+        ],
+        "tip_in_door": [
+          -0.005287915468215942,
+          0.0018084049224853516,
+          -0.213094562292099,
+          -0.4770381450653076,
+          -0.5185400247573853,
+          -0.4944398105144501,
+          -0.508999228477478
+        ],
+        "joints": [
+          0.2764451503753662,
+          0.8936386108398438,
+          0.03759768605232239,
+          -1.6590259075164795,
+          1.5497981309890747,
+          1.6255226135253906,
+          -1.7533091306686401
+        ],
+        "gripper_joints": [
+          0.0103226900100708,
+          0.013893455266952515
+        ],
+        "door_angle_rad": -9.322166442871094e-05,
+        "contacts": [
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 75.35373869394158
+          },
+          {
+            "points": 10,
+            "positive_force_points": 10,
+            "sum_force_magnitudes_N": 54.55557956503228
+          }
+        ]
+      },
+      "solver": {
+        "iterations": 5,
+        "position_match_rms_mm": 9.727471365131445e-05,
+        "position_match_max_mm": 0.0005215166257449959,
+        "raw_orientation_match_rms_deg": 0.0002988317113274723,
+        "raw_orientation_match_max_deg": 0.00217090480538685,
+        "position_priority_fallback_points": 0,
+        "total_path_points": 369,
+        "maximum_joint_change_from_position_deg": 8.515849378023468,
+        "all_waypoints_meet_solver_tolerance": true,
+        "shared_filtered_path_position_match_rms_mm": 0.00027825041313026813,
+        "shared_filtered_path_position_match_max_mm": 0.0016224295238755106
+      },
+      "gripper_commands": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "config": {
+    "suffix_start_fraction": 0.75,
+    "preclose_seconds": 1.0,
+    "iterations": 100,
+    "damping": 0.0001,
+    "orientation_length_scale_m": 0.1,
+    "max_ik_step_rad": 0.03,
+    "joint_trust_region_rad": 0.35,
+    "servo_gain": 0.8,
+    "servo_max_step_rad": 0.02,
+    "position_tolerance_m": 1e-05,
+    "rotation_tolerance_rad": 0.0001,
+    "preclose_position_qualification_mm": 0.5,
+    "preclose_rotation_qualification_deg": 0.2,
+    "pull_budget_seconds": 15.0
+  },
+  "checkpoint": "local/state/evaluations/open_microwave-seed7-u20000.pt",
+  "kinematics_calibration": "outputs/single-gpu-study/results/simulator-kinematics.json",
+  "policy_seed": "80000+episode*100+1 for the one subsequent RK-Diffuser pull sample",
+  "role": "Exploratory mechanism intervention on previously inspected val20, one seed, expert goals",
+  "main_comparisons": [
+    [
+      "SE3",
+      "HOLD"
+    ],
+    [
+      "SE3",
+      "XYZ"
+    ]
+  ],
+  "secondary_comparisons": [
+    [
+      "SE3",
+      "ORIGINAL"
+    ],
+    [
+      "XYZ",
+      "HOLD"
+    ],
+    [
+      "HOLD",
+      "ORIGINAL"
+    ]
+  ],
+  "scope": "Frozen original grasp sample; only last25% nominal grasp time can change before closure; no regrasp or recovery",
+  "groups": {
+    "ORIGINAL": "Unmodified original RML commands; original closure time",
+    "HOLD": "Same original commands, hold original final joint target for1s before closure",
+    "XYZ": "Smooth suffix XYZ retarget to expert position, preserve original planned orientation;1s measured-tip servo",
+    "SE3": "Smooth suffix position+orientation retarget to expert pose;1s measured-tip SE3 servo"
+  },
+  "subsequent_policy": "Same frozen RK-Diffuser, expert pull target, seed and original controller; condition on each actual post-grasp observation. Do not replay an obsolete pull start posture.",
+  "measurement": "True robot joint/EE state for bounded preclose servo; no visual module or object contact feedback used for correction",
+  "denominator": "All20 per condition, including infeasible/insufficient pose correction, invalid plans and task failures",
+  "smoke": "Episode0 all4 conditions; engineering only, excluded from formal80; no outcome-based parameter tuning",
+  "common_prefix_bounds": {
+    "tip_position_mm": 0.1,
+    "tip_rotation_deg": 0.05,
+    "max_joint_delta_deg": 0.05,
+    "door_angle_delta_deg": 0.01,
+    "gripper_joint_delta_mm": 0.05,
+    "tip_in_door_position_mm": 0.1,
+    "door_position_mm": 0.1,
+    "door_rotation_deg": 0.02,
+    "arm_velocity_delta_rad_s": 0.01,
+    "door_velocity_delta_rad_s": 0.01,
+    "gripper_velocity_delta_m_s": 0.001,
+    "contact_boolean_mismatch": 0.0
+  },
+  "no_retraining": true,
+  "new_diffusion_samples_per_case": 1,
+  "common_physics_budget_seconds": 40.0,
+  "pull_budget_seconds": 15.0,
+  "infrastructure": "Fresh native simulator/model process per case; completed JSON saved before shutdown; preserve all attempts in separate paths, never overwrite partial artifacts"
+}

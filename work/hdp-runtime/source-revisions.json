@@ -1,0 +1,22 @@
+[
+  {
+    "Dependency": "PyRep",
+    "Revision": "8f420be8064b1970aae18a9cfbc978dfb15747ef"
+  },
+  {
+    "Dependency": "YARR",
+    "Revision": "0d769c133f31c7049ec8acfb57b0a71eedb01bc6"
+  },
+  {
+    "Dependency": "CLIP",
+    "Revision": "d05afc436d78f1c48dc0dbf8e5980a9d471f35f6"
+  },
+  {
+    "Dependency": "HDP",
+    "Revision": "383d5323b8817e1ce9acd18b7d4ee3860e80184f"
+  },
+  {
+    "Dependency": "RLBench",
+    "Revision": "02720bba4c73fe02eb75df946b8791b806028a9d"
+  }
+]

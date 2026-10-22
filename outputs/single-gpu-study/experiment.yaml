@@ -1,0 +1,44 @@
+# One-task exploratory diagnosis, not a reproduction of full HDP.
+schema_version: 1
+hdp_root: work/hdp
+state_root: local/state
+seed: 7
+task: open_microwave
+variation: 0
+data:
+  camera: front
+  image_size: 128
+  model_image_size: 64
+  renderer: opengl
+  stopping_delta: 0.01
+  splits:
+    train: {episodes: 100, seed_base: 100000}
+    val: {episodes: 20, seed_base: 200000}
+    test: {episodes: 20, seed_base: 300000}
+training:
+  batch_size: 16
+  gradient_accumulate_every: 4
+  learning_rate: 0.00002
+  updates: 20000
+  save_every: 1000
+  validate_every: 1000
+  validation_batches: 5
+  demo_aug_ratio: 0.5
+  demo_aug_min_len: 5
+  warmup_updates: 5
+  cpu_threads: 4
+  precision: float32
+  # Keep the two branches, trajectory horizon and diffusion process unchanged.
+  horizon: 64
+  diffusion_timesteps: 100
+diagnostic:
+  translation_cm: [0, 0.5, 1, 2]
+  rotation_deg: [0]
+  direction_seed: 70001
+  diffusion_seed_base: 80000
+  direction_repeats: 1
+  bootstrap_repeats: 2000
+  conditioning: expert_keyframes
+  rank_condition: highest_bin
+  perturbation_frame: world
+  re_quantize: false

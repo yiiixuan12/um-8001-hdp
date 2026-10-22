@@ -1,0 +1,15 @@
+{
+  "engineering_repeat": 1,
+  "policy_seed": 80001,
+  "success_equal": true,
+  "exact_array_identity": {
+    "grasp-controller.npz": true,
+    "grasp-command-plans.npz": true,
+    "grasp-trace.npz": true,
+    "pull-input.npz": true,
+    "pull-prediction.npz": true,
+    "pull-trace.npz": true
+  },
+  "all_pass": true,
+  "note": "No outcome selection; check same-input fixed-seed prediction and physical repeat before formal collection"
+}

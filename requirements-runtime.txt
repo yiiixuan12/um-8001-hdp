@@ -1,0 +1,24 @@
+-r requirements-analysis.txt
+setuptools==80.10.2
+cffi==1.15.1
+omegaconf==2.3.1
+hydra-core==1.3.7
+pytorch-kinematics==0.10.0
+opencv-python-headless==4.10.0.84
+einops==0.8.2
+transformers==4.40.2
+pyrender==0.1.45
+pandas==2.3.3
+wandb==0.31.0
+tensorboard==2.21.0
+ftfy==6.3.1
+regex==2026.9.29
+absl-py==2.5.1
+moviepy==1.0.3
+timeout-decorator==0.5.0
+psutil==7.2.2
+termcolor==3.3.0
+tqdm==4.70.1
+pyquaternion==0.9.9
+natsort==8.4.0
+gymnasium==1.0.0a2

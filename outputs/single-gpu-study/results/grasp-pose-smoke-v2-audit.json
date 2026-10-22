@@ -1,0 +1,32 @@
+{
+  "cases": 4,
+  "physical_trace_files": 8,
+  "controller_files": 4,
+  "all_records_complete": true,
+  "common_prefix_state_groups": 1,
+  "identical_common_prefix_state_groups": 1,
+  "identical_common_prefix_physical_groups": 1,
+  "original_hold_identical_pre_hold_groups": 1,
+  "max_common_prefix_state_difference": {
+    "tip_position_mm": 0.0,
+    "tip_rotation_deg": 0.0,
+    "max_joint_delta_deg": 0.0,
+    "door_angle_delta_deg": 0.0,
+    "gripper_joint_delta_mm": 0.0,
+    "tip_in_door_position_mm": 0.0,
+    "door_position_mm": 0.0,
+    "door_rotation_deg": 0.0,
+    "arm_velocity_delta_rad_s": 0.0,
+    "door_velocity_delta_rad_s": 0.0,
+    "gripper_velocity_delta_m_s": 0.0,
+    "contact_boolean_mismatch": 0.0
+  },
+  "velocity_bound_pass": true,
+  "max_command_velocity_ratio": 0.37415822609753585,
+  "suffix_prefix_unchanged_plans": 4,
+  "matched_expert_goal_groups": 1,
+  "fixed_subsequent_policy_groups": 1,
+  "new_pull_diffusion_calls": 4,
+  "native_exits_after_complete_record": [],
+  "incomplete_native_attempts": []
+}

@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "task": "open_microwave",
+  "split": "test",
+  "pilot_only": false,
+  "variation": 0,
+  "source": "RLBench live expert demonstrations; no learned policy",
+  "stopping_delta": 0.01,
+  "camera": "front",
+  "render_mode": "OPENGL",
+  "image_size": 128,
+  "model_image_size": 64,
+  "episodes": [
+    {
+      "episode": 0,
+      "requested_seed": 300000,
+      "directory": "episode_000000",
+      "frames": 165,
+      "keyframes": [
+        0,
+        113,
+        164
+      ],
+      "expert_success": true,
+      "generation_seconds": 3.6536441190000915
+    },
+    {
+      "episode": 1,
+      "requested_seed": 300001,
+      "directory": "episode_000001",
+      "frames": 171,
+      "keyframes": [
+        0,
+        113,
+        170
+      ],
+      "expert_success": true,
+      "generation_seconds": 5.986356266999792
+    },
+    {
+      "episode": 2,
+      "requested_seed": 300002,
+      "directory": "episode_000002",
+      "frames": 150,
+      "keyframes": [
+        0,
+        113,
+        149
+      ],
+      "expert_success": true,
+      "generation_seconds": 3.3360496260002037
+    },
+    {
+      "episode": 3,
+      "requested_seed": 300003,
+      "directory": "episode_000003",
+      "frames": 140,
+      "keyframes": [
+        0,
+        87,
+        139
+      ],
+      "expert_success": true,
+      "generation_seconds": 15.037632042999576
+    },
+    {
+      "episode": 4,
+      "requested_seed": 300004,
+      "directory": "episode_000004",
+      "frames": 160,
+      "keyframes": [
+        0,
+        113,
+        159
+      ],
+      "expert_success": true,
+      "generation_seconds": 4.228619634000097
+    },
+    {
+      "episode": 5,
+      "requested_seed": 300005,
+      "directory": "episode_000005",
+      "frames": 147,
+      "keyframes": [
+        0,
+        111,
+        146
+      ],
+      "expert_success": true,
+      "generation_seconds": 4.562290052999742
+    },
+    {
+      "episode": 6,
+      "requested_seed": 300006,
+      "directory": "episode_000006",
+      "frames": 159,
+      "keyframes": [
+        0,
+        111,
+        158
+      ],
+      "expert_success": true,
+      "generation_seconds": 3.53355325099983
+    },
+    {
+      "episode": 7,
+      "requested_seed": 300007,
+      "directory": "episode_000007",
+      "frames": 164,
+      "keyframes": [
+        0,
+        117,
+        163
+      ],
+      "expert_success": true,
+      "generation_seconds": 3.6611075439996057
+    },
+    {
+      "episode": 8,
+      "requested_seed": 300008,
+      "directory": "episode_000008",
+      "frames": 155,
+      "keyframes": [
+        0,
+        112,
+        154
+      ],
+      "expert_success": true,
+      "generation_seconds": 7.871558888000436
+    },
+    {
+      "episode": 9,
+      "requested_seed": 300009,
+      "directory": "episode_000009",
+      "frames": 154,
+      "keyframes": [
+        0,
+        112,
+        153
+      ],
+      "expert_success": true,
+      "generation_seconds": 3.476479898999969
+    },
+    {
+      "episode": 10,
+      "requested_seed": 300010,
+      "directory": "episode_000010",
+      "frames": 162,
+      "keyframes": [
+        0,
+        111,
+        161
+      ],
+      "expert_success": true,
+      "generation_seconds": 5.971094159999666
+    },
+    {
+      "episode": 11,
+      "requested_seed": 300011,
+      "directory": "episode_000011",
+      "frames": 161,
+      "keyframes": [
+        0,
+        112,
+        160
+      ],
+      "expert_success": true,
+      "generation_seconds": 4.730137597000066
+    },
+    {
+      "episode": 12,
+      "requested_seed": 300012,
+      "directory": "episode_000012",
+      "frames": 153,
+      "keyframes": [
+        0,
+        116,
+        152
+      ],
+      "expert_success": true,
+      "generation_seconds": 3.4974171780004326
+    },
+    {
+      "episode": 13,
+      "requested_seed": 300013,
+      "directory": "episode_000013",
+      "frames": 170,
+      "keyframes": [
+        0,
+        113,
+        169
+      ],
+      "expert_success": true,
+      "generation_seconds": 5.013312577000761
+    },
+    {
+      "episode": 14,
+      "requested_seed": 300014,
+      "directory": "episode_000014",
+      "frames": 164,
+      "keyframes": [
+        0,
+        119,
+        163
+      ],
+      "expert_success": true,
+      "generation_seconds": 3.7628469820001555
+    },
+    {
+      "episode": 15,
+      "requested_seed": 300015,
+      "directory": "episode_000015",
+      "frames": 147,
+      "keyframes": [
+        0,
+        112,
+        146
+      ],
+      "expert_success": true,
+      "generation_seconds": 4.482547206999698
+    },
+    {
+      "episode": 16,
+      "requested_seed": 300016,
+      "directory": "episode_000016",
+      "frames": 171,
+      "keyframes": [
+        0,
+        113,
+        170
+      ],
+      "expert_success": true,
+      "generation_seconds": 3.8171057409999776
+    },
+    {
+      "episode": 17,
+      "requested_seed": 300017,
+      "directory": "episode_000017",
+      "frames": 149,
+      "keyframes": [
+        0,
+        112,
+        148
+      ],
+      "expert_success": true,
+      "generation_seconds": 5.654373326000496
+    },
+    {
+      "episode": 18,
+      "requested_seed": 300018,
+      "directory": "episode_000018",
+      "frames": 165,
+      "keyframes": [
+        0,
+        115,
+        164
+      ],
+      "expert_success": true,
+      "generation_seconds": 3.9804297729997415
+    },
+    {
+      "episode": 19,
+      "requested_seed": 300019,
+      "directory": "episode_000019",
+      "frames": 151,
+      "keyframes": [
+        0,
+        112,
+        150
+      ],
+      "expert_success": true,
+      "generation_seconds": 4.477603638999426
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "scenes": 20,
+  "paired_cases": 80,
+  "saved_predictions": 20,
+  "source_grasps_exact": 20,
+  "filtered_endpoint_exact": 20,
+  "nominal_timed_endpoint_exact": 18,
+  "nominal_timed_endpoint_within_1e_8rad": 20,
+  "max_nominal_timed_endpoint_delta_rad": 1.862645149230957e-09,
+  "paired_nominal_commands_exact": 80,
+  "controller_before_extra_snapshot_exact": 80,
+  "controller_preclose_snapshot_exact": 80,
+  "saved_preclose_errors_recomputed": 80,
+  "saved_postclose_errors_recomputed": 80,
+  "original_commands_equal_motor_targets": 20,
+  "all_sources_read_only": true,
+  "new_simulator_episodes": 0,
+  "new_policy_samples": 0,
+  "calibration": "outputs/single-gpu-study/results/simulator-kinematics.json",
+  "fk_note": "Exported simulator chain reused unchanged. Measured-q FK versus actual tip discrepancies are reported separately."
+}

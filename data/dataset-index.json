@@ -1,0 +1,32 @@
+{
+  "task": "open_microwave",
+  "generated_locally": true,
+  "splits": {
+    "train": {
+      "episodes": 100,
+      "frames": 15966,
+      "seed_min": 100000,
+      "seed_max": 100099
+    },
+    "val": {
+      "episodes": 20,
+      "frames": 3110,
+      "seed_min": 200000,
+      "seed_max": 200019
+    },
+    "test": {
+      "episodes": 20,
+      "frames": 3158,
+      "seed_min": 300000,
+      "seed_max": 300019
+    },
+    "fresh_feedback_v2": {
+      "episodes": 20,
+      "frames": 3177,
+      "seed_min": 400000,
+      "seed_max": 400019
+    }
+  },
+  "main_study_split": "val",
+  "main_scenes": 20
+}

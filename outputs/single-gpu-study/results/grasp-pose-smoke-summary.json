@@ -1,0 +1,200 @@
+{
+  "source": "outputs/single-gpu-study/results/grasp-pose-smoke.json",
+  "role": "Exploratory mechanism intervention on previously inspected val20, one seed, expert goals",
+  "scenes": 1,
+  "conditions": {
+    "ORIGINAL": {
+      "successes": 0,
+      "n": 1,
+      "execution_failures": 0,
+      "pull_timeouts": 0,
+      "preclose_full_pose_qualified": 0,
+      "postclose_full_pose_qualified": 0,
+      "preclose_position_mm_mean": 2.9394333994180446,
+      "preclose_rotation_deg_mean": 3.0676634046642666,
+      "preclose_max_joint_velocity_rad_s_mean": 0.09679317474365234,
+      "postclose_position_mm_mean": 0.9604281730942636,
+      "postclose_rotation_deg_mean": 3.187850283950475,
+      "postclose_max_joint_velocity_rad_s_mean": 0.002117156982421875,
+      "grasp_physics_seconds_mean": 5.15000007674098,
+      "pull_physics_seconds_mean": 2.1500000320374966,
+      "physics_seconds_mean": 7.600000113248825,
+      "pull_contact_fraction_mean": 0.08695652173913043,
+      "first_second_relative_drift_mm_mean": 97.28439152240753,
+      "first_second_door_progress_deg_mean": 23.689048767089844,
+      "velocity_limited_steps_mean": 0.0
+    },
+    "HOLD": {
+      "successes": 0,
+      "n": 1,
+      "execution_failures": 0,
+      "pull_timeouts": 0,
+      "preclose_full_pose_qualified": 0,
+      "postclose_full_pose_qualified": 0,
+      "preclose_position_mm_mean": 1.0958158669094327,
+      "preclose_rotation_deg_mean": 3.1816229498325868,
+      "preclose_max_joint_velocity_rad_s_mean": 0.0008440017700195312,
+      "postclose_position_mm_mean": 0.9704726118321818,
+      "postclose_rotation_deg_mean": 3.1872777079564525,
+      "postclose_max_joint_velocity_rad_s_mean": 0.0036716461181640625,
+      "grasp_physics_seconds_mean": 6.150000091642141,
+      "pull_physics_seconds_mean": 2.1500000320374966,
+      "physics_seconds_mean": 8.600000128149986,
+      "pull_contact_fraction_mean": 0.08695652173913043,
+      "first_second_relative_drift_mm_mean": 99.773108959198,
+      "first_second_door_progress_deg_mean": 23.721614837646484,
+      "velocity_limited_steps_mean": 0.0
+    },
+    "XYZ": {
+      "successes": 0,
+      "n": 1,
+      "execution_failures": 0,
+      "pull_timeouts": 0,
+      "preclose_full_pose_qualified": 0,
+      "postclose_full_pose_qualified": 0,
+      "preclose_position_mm_mean": 0.8933886939713315,
+      "preclose_rotation_deg_mean": 3.1699710735537834,
+      "preclose_max_joint_velocity_rad_s_mean": 0.0016260147094726562,
+      "postclose_position_mm_mean": 0.672021532508817,
+      "postclose_rotation_deg_mean": 3.180445804971789,
+      "postclose_max_joint_velocity_rad_s_mean": 0.0027799606323242188,
+      "grasp_physics_seconds_mean": 6.150000091642141,
+      "pull_physics_seconds_mean": 2.1500000320374966,
+      "physics_seconds_mean": 8.600000128149986,
+      "pull_contact_fraction_mean": 0.08695652173913043,
+      "first_second_relative_drift_mm_mean": 111.07469350099564,
+      "first_second_door_progress_deg_mean": 22.282821655273438,
+      "velocity_limited_steps_mean": 0.0
+    },
+    "SE3": {
+      "successes": 1,
+      "n": 1,
+      "execution_failures": 0,
+      "pull_timeouts": 0,
+      "preclose_full_pose_qualified": 0,
+      "postclose_full_pose_qualified": 0,
+      "preclose_position_mm_mean": 0.8905560555333202,
+      "preclose_rotation_deg_mean": 0.09170862429537192,
+      "preclose_max_joint_velocity_rad_s_mean": 0.0016260147094726562,
+      "postclose_position_mm_mean": 0.6684287417106307,
+      "postclose_rotation_deg_mean": 0.07334401077395636,
+      "postclose_max_joint_velocity_rad_s_mean": 0.0007152557373046875,
+      "grasp_physics_seconds_mean": 6.150000091642141,
+      "pull_physics_seconds_mean": 1.9000000283122063,
+      "physics_seconds_mean": 8.350000124424696,
+      "pull_contact_fraction_mean": 0.9523809523809523,
+      "first_second_relative_drift_mm_mean": 2.05558305606246,
+      "first_second_door_progress_deg_mean": 38.51255416870117,
+      "velocity_limited_steps_mean": 0.0
+    }
+  },
+  "paired_comparisons": {
+    "SE3_minus_HOLD": {
+      "n": 1,
+      "difference": 1.0,
+      "paired_scene_bootstrap_95ci": [
+        1.0,
+        1.0
+      ],
+      "success_gains": [
+        0
+      ],
+      "success_losses": [],
+      "two_sided_exact_p": 1.0,
+      "note": "Observed paired contrast; percentile intervals can be degenerate with few discordances",
+      "holm_two_primary_comparisons_p": 1.0
+    },
+    "SE3_minus_XYZ": {
+      "n": 1,
+      "difference": 1.0,
+      "paired_scene_bootstrap_95ci": [
+        1.0,
+        1.0
+      ],
+      "success_gains": [
+        0
+      ],
+      "success_losses": [],
+      "two_sided_exact_p": 1.0,
+      "note": "Observed paired contrast; percentile intervals can be degenerate with few discordances",
+      "holm_two_primary_comparisons_p": 1.0
+    },
+    "SE3_minus_ORIGINAL": {
+      "n": 1,
+      "difference": 1.0,
+      "paired_scene_bootstrap_95ci": [
+        1.0,
+        1.0
+      ],
+      "success_gains": [
+        0
+      ],
+      "success_losses": [],
+      "two_sided_exact_p": 1.0,
+      "note": "Observed paired contrast; percentile intervals can be degenerate with few discordances"
+    },
+    "XYZ_minus_HOLD": {
+      "n": 1,
+      "difference": 0.0,
+      "paired_scene_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "success_gains": [],
+      "success_losses": [],
+      "two_sided_exact_p": 1.0,
+      "note": "Observed paired contrast; percentile intervals can be degenerate with few discordances"
+    },
+    "HOLD_minus_ORIGINAL": {
+      "n": 1,
+      "difference": 0.0,
+      "paired_scene_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "success_gains": [],
+      "success_losses": [],
+      "two_sided_exact_p": 1.0,
+      "note": "Observed paired contrast; percentile intervals can be degenerate with few discordances"
+    }
+  },
+  "audit": {
+    "cases": 4,
+    "physical_trace_files": 8,
+    "controller_files": 4,
+    "all_records_complete": true,
+    "common_prefix_state_groups": 1,
+    "identical_common_prefix_state_groups": 1,
+    "identical_common_prefix_physical_groups": 1,
+    "original_hold_identical_pre_hold_groups": 1,
+    "max_common_prefix_state_difference": {
+      "tip_position_mm": 0.0,
+      "tip_rotation_deg": 0.0,
+      "max_joint_delta_deg": 0.0,
+      "door_angle_delta_deg": 0.0,
+      "gripper_joint_delta_mm": 0.0,
+      "tip_in_door_position_mm": 0.0,
+      "door_position_mm": 0.0,
+      "door_rotation_deg": 0.0,
+      "arm_velocity_delta_rad_s": 0.0,
+      "door_velocity_delta_rad_s": 0.0,
+      "gripper_velocity_delta_m_s": 0.0,
+      "contact_boolean_mismatch": 0.0
+    },
+    "velocity_bound_pass": true,
+    "max_command_velocity_ratio": 0.37415822609753585,
+    "suffix_prefix_unchanged_plans": 4,
+    "matched_expert_goal_groups": 1,
+    "fixed_subsequent_policy_groups": 1,
+    "new_pull_diffusion_calls": 4,
+    "native_exits_after_complete_record": [],
+    "incomplete_native_attempts": []
+  },
+  "limitations": [
+    "One task/seed and previously inspected val20; expert goals, no PerAct",
+    "SE3 changes suffix posture/contact/history; not pure rotation isolation",
+    "Same downstream policy/seed but actual observations and resulting trajectories vary, as intended",
+    "Correction failures remain in denominator; pose validity must precede success interpretation",
+    "Small-sample percentile bootstrap can be degenerate; zero observed effect is not equivalence"
+  ]
+}

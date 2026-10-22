@@ -1,0 +1,103 @@
+{
+  "purpose": "Exploratory stage-prefix substitution, not goal sensitivity",
+  "episodes": 20,
+  "training_seed_count": 1,
+  "conditions": {
+    "MM": {
+      "successes": 9,
+      "episodes": 20,
+      "success_rate": 0.45,
+      "episode_bootstrap_95ci": [
+        0.25,
+        0.65
+      ],
+      "execution_exceptions": 0,
+      "mean_final_door_angle_deg": 54.38885168534382,
+      "grasp_measurement_count": 20,
+      "pull_measurement_count": 20,
+      "mean_grasp_position_error_mm": 1.004671452272369,
+      "mean_grasp_rotation_error_deg": 3.097270657313975,
+      "bilateral_contact_at_handoff_count": 20,
+      "mean_pull_bilateral_contact_fraction": 0.3604794098392497
+    },
+    "EM": {
+      "successes": 18,
+      "episodes": 20,
+      "success_rate": 0.9,
+      "episode_bootstrap_95ci": [
+        0.75,
+        1.0
+      ],
+      "execution_exceptions": 0,
+      "mean_final_door_angle_deg": 73.8827334030128,
+      "grasp_measurement_count": 20,
+      "pull_measurement_count": 20,
+      "mean_grasp_position_error_mm": 0.6110483492835433,
+      "mean_grasp_rotation_error_deg": 0.06276267971690852,
+      "bilateral_contact_at_handoff_count": 20,
+      "mean_pull_bilateral_contact_fraction": 0.907528793670098
+    },
+    "EE": {
+      "successes": 20,
+      "episodes": 20,
+      "success_rate": 1.0,
+      "episode_bootstrap_95ci": [
+        1.0,
+        1.0
+      ],
+      "execution_exceptions": 0,
+      "mean_final_door_angle_deg": 80.86022789681738,
+      "grasp_measurement_count": 20,
+      "pull_measurement_count": 20,
+      "mean_grasp_position_error_mm": 0.6110127583056544,
+      "mean_grasp_rotation_error_deg": 0.06246920373761643,
+      "bilateral_contact_at_handoff_count": 20,
+      "mean_pull_bilateral_contact_fraction": 1.0
+    }
+  },
+  "paired_comparisons": {
+    "EM_minus_MM": {
+      "success_rate_difference": 0.45,
+      "paired_episode_bootstrap_95ci": [
+        0.2,
+        0.7
+      ],
+      "rescued_episodes": [
+        0,
+        1,
+        3,
+        6,
+        9,
+        10,
+        11,
+        16,
+        17,
+        19
+      ],
+      "harmed_episodes": [
+        14
+      ]
+    },
+    "EE_minus_EM": {
+      "success_rate_difference": 0.1,
+      "paired_episode_bootstrap_95ci": [
+        0.0,
+        0.25
+      ],
+      "rescued_episodes": [
+        14,
+        18
+      ],
+      "harmed_episodes": []
+    }
+  },
+  "limitations": [
+    "One task and training seed; validation-only diagnosis, not full HDP reproduction.",
+    "The intervention replaces the whole grasp-prefix state, including arm posture and contact history; it does not isolate contact alone.",
+    "Recorded expert replay is not an adaptive expert or a global performance upper bound.",
+    "Finger-door collision contact is a proxy, not proof of a stable handle grasp.",
+    "API exceptions and physical tracking failures differ. All task failures stay in denominators.",
+    "All-equal outcomes give degenerate percentile bootstrap intervals; they do not imply zero uncertainty."
+  ],
+  "source": "/mnt/c/Users/User/Documents/Codex/2026-10-20/https-github-com-dyson-ai-hdp/outputs/single-gpu-study/results/open_microwave-stage-substitution-val.json"
+}
